@@ -1,0 +1,13 @@
+{
+    "name": "SYS-INOUE/weather-hue",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leko",
+            "email": "leko.noor@gmail.com"
+        }
+    ],
+    "require": {
+    	"sqmk/phue": "0.3.*"
+    }
+}

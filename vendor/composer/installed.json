@@ -1,0 +1,62 @@
+[
+    {
+        "name": "sqmk/phue",
+        "version": "0.3.1",
+        "version_normalized": "0.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sqmk/Phue.git",
+            "reference": "be1b93489c7df057cfed859599f99d405af6b8b2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sqmk/Phue/zipball/be1b93489c7df057cfed859599f99d405af6b8b2",
+            "reference": "be1b93489c7df057cfed859599f99d405af6b8b2",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.8.0",
+            "phpunit/phpunit": "3.7.25",
+            "squizlabs/php_codesniffer": "1.4.6"
+        },
+        "suggest": {
+            "ext-curl": "Allows usage of cURL transport adapter"
+        },
+        "time": "2014-09-09 22:39:12",
+        "bin": [
+            "bin/phue-create-user",
+            "bin/phue-bridge-finder",
+            "bin/phue-light-finder",
+            "bin/phue-list-lights"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Phue": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Michael Squires",
+                "email": "sqmk@php.net",
+                "role": "lead"
+            }
+        ],
+        "description": "Phue - Philips Hue PHP client",
+        "homepage": "http://github.com/sqmk/Phue",
+        "keywords": [
+            "client",
+            "hue",
+            "philips",
+            "phue"
+        ]
+    }
+]
